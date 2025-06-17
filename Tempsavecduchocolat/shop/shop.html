@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Shop</title>
+<meta name="viewport" content="width=dvice-width,initial-scale=1.0">
+<link href="../common/css/shop_pc.css" rel="stylesheet" type="text/css">
+<link href="../common/css/shop_sp.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@700;800&family=Fascinate&family=Great+Vibes&family=Margarine&family=Nothing+You+Could+Do&family=Petit+Formal+Script&family=Pinyon+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+  <nav id ="gnavi" class="sp">
+    <ul>
+      <li id="Brand"><a href="../Brand/Brand.html">Brand</a></li>
+      <li id="Shop"><a href="shop.html">Shop</a></li>
+      <li id="Tempsavecduchocolat"><img src="../common/images/logo_pc.png" alt="PCロゴ"></li>
+      <li id="Contact"><a href="#">Contact</a></li>
+      <li id="Online"><a href="#">Online</a></li>
+    </ul>
+  </nav>
+  <div id="logo_sp" class="pc"><img src="../common/images/logo_sp.png" alt="SPロゴ"></div>
+  <div id="gloval-nav" class="pc">
+    <nav>
+      <ul>
+        <li id="logo_hamburger"><img src="../common/images/logo_hamburger.png" alt="ハンバーガーロゴ"></li>
+        <li><a href="../Brand/Brand.html">Brand</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Online</a></li>
+        <li id="SNS_hamburger"><a href="#"><img src="../common/images/sns_hamburger.png" alt="ハンバーガーロゴ"></a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="nav-toggle">
+    <div> <span></span> <span></span> <span></span> </div>
+  </div>
+</header>
+<main>
+  <div id="shop_parallax"> <span id="shop_title">Shop</span> </div>
+  <section id="Information">
+    <h1 id="Information_title">Information</h1>
+    <div id="Information_main_Inner">
+      <div id="Information_a">
+        <p>Address</p>
+        <p>〒104-1234</p>
+        <p>東京都中央区銀座5丁目1-1</p>
+      </div>
+    </div>
+    <div id="Information_b">
+      <p>Telephone</p>
+      <p>030-1234-5678</p>
+    </div>
+    <div id="Map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.2140040137156!2d139.7622538152716!3d35.67173223810029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be5c2a360a1%3A0xa6dcab0cb7a45f2e!2z6YqA5bqn6aeF!5e0!3m2!1sja!2sjp!4v1658123617438!5m2!1sja!2sjp" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+</main>
+<footer>
+  <div id="footerInner">
+    <div id="footerleft">
+      <div id="footerleft2">
+        <div id="footer_logo"> <a href="#"><img src="../common/images/logo_pc.png" alt="フッターロゴ"></a> </div>
+        <div id="footer_SNS"> <a href="#"><img src="../common/images/SNS_footer.png" alt="フッターSNS"> </a> </div>
+      </div>
+      <p id="footer_c" class="sp">©︎2012Temps avec du chocolat</p>
+    </div>
+    <div id="footerRight">
+      <ul id="menu_footer">
+        <li><a href="../Brand/Brand.html">Brand</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Online</a></li>
+      </ul>
+      <ul id="statute_footer">
+        <li><a href="#">ご利用ガイド</a></li>
+        <li><a href="#">利用規約</a></li>
+        <li><a href="#">特定商取引法に基づく表記</a></li>
+        <li><a href="#">個人情報の取扱い</a></li>
+      </ul>
+      <p id="footer_c_sp" class="pc">©︎2012Temps avec du chocolat</p>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<script>
+$(function () { 
+$("#nav-toggle").on("click",function(){
+$("body").toggleClass("open");
+});
+});	
+
+$(function() {
+ $(window).scroll(function() {
+ const winTop = $(window).scrollTop();
+ const backPos = winTop * 0.4;
+ $('#shop_parallax').css('background-position-y', backPos);
+        });
+    });
+</script>
+</body>
+</html>

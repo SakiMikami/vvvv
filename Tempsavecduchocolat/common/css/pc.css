@@ -1,0 +1,496 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%
+}
+li {
+  list-style-type: none;
+}
+img {
+  display: block;
+  border: none;
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #f9e4d5;
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, 'sans-serif';
+  font-size: 16px;
+}
+@media screen and (min-width:678px) {
+  header {
+    background-color: #654131;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 1111
+  }
+  #gnavi ul {
+    display: flex;
+    width: 1000px;
+    color: #f9e4d5;
+    font-size: 15px;
+    justify-content: space-between;
+    margin: auto;
+    font-family: "Microsoft Sans Serif";
+  }
+  #gnavi li a {
+    color: #f9e4d5;
+  }
+  .pc {
+    display: none;
+  }
+  #Tempsavecduchocolat {
+    width: 260px;
+    padding: 20px;
+  }
+  #Brand {
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Petit Formal Script', cursive;
+  }
+  #Shop {
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Petit Formal Script', cursive;
+  }
+  #Contact {
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Petit Formal Script', cursive;
+  }
+  #Online {
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Petit Formal Script', cursive;
+  }
+  #main_slide:hover {
+    opacity: 0.9;
+  }
+  #Tempsavecdu {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 70px;
+    color: rgba(245, 52, 59, 0.8);
+    text-align: center;
+    margin-top: 42px;
+  }
+  #title1 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+  #chocolate {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 70px;
+    color: rgba(245, 52, 59, 0.8);
+    text-align: center;
+  }
+  #Tempsavecduchocolat1 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 45px;
+  }
+  #Tempsavecduchocolat2 {
+    font-size: 18px;
+    width: 700px;
+    text-align: center;
+    margin: 20px auto auto auto;
+  }
+  #Tempsavecduchocolat3 {
+    font-size: 18px;
+    width: 700px;
+    text-align: center;
+    margin: 20px auto auto auto;
+  }
+  #title2 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  #Chocolate_main1 {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto auto auto;
+  }
+  #Chocolate_main2 {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 112px auto auto auto;
+  }
+  #Chocolate_main1 li {
+    text-align: center;
+    font-size: 16px;
+	font-weight: 600;
+	color: #3f3029;
+	
+	}
+  #Chocolate_main2 li {
+    text-align: center;
+    font-size: 16px;
+	font-weight: 600;
+	color: #3f3029;
+  }
+  #Chocolate {
+    background-color: #f3e9d8;
+    margin-top: 115px;
+    height: 1255px;
+    font-size: 14px;
+  }
+  #Chocolate_buttan {
+    margin: 150px auto auto auto;
+    width: 200px;
+  }
+  #Chocolate_buttan:hover {
+    opacity: 0.9;
+  }
+  #Commitment {
+    display: block;
+    width: 1000px;
+    margin: 50px auto;
+    font-size: 18px;
+  }
+  .title3 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+  #Commitment > p {
+    margin-top: 32px;
+  }
+  #Commitment_a {
+    text-align: left;
+    font-size: 18px;
+  }
+  #Commitment_main figure {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #Commitment_main figure:first-child {
+    flex-direction: row;
+  }
+  #Commitment_main figure:last-child {
+    flex-direction: row-reverse;
+  }
+  #Commitment_main figrue div {
+    width: 100%;
+  }
+  #Commitment_main figrue div img {
+    width: 100%;
+  }
+  #Commitment_main figure p {
+    width: 350px;
+    font-size: 16px;
+  }
+  #Commitment_main figure p {
+    width: 350px;
+    font-size: 16px;
+  }
+  #title4 {
+    font-family: 'Assistant', sans-serif;
+    margin: 50px auto auto auto;
+    text-align: center;
+    font-size: 25px;
+  }
+  #News_main_Inner {
+    display: block;
+    margin: 32px auto auto auto;
+    width: 69.5%;
+    background-color: #f3e9d8;
+  }
+  #News_main_Inner div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: auto auto;
+    width: 700px;
+    color: #000000;
+  }
+  #News_main_Inner dt {
+    width: 20%;
+    margin-right: 60px;
+  }
+  #News_main_Inner dd {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    width: 68%;
+  }
+  #News_main_Inner_a {
+    padding-top: 30px;
+  }
+  #News_buttan {
+    margin: 135px auto auto auto;
+    width: 200px;
+  }
+  #News_buttan:hover {
+    opacity: 0.9;
+  }
+  #main_banner ul {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  #main_banner {
+    margin: 140px auto auto auto;
+    width: 1000px;
+  }
+  #main_banner_a:hover {
+    opacity: 0.9;
+  }
+  #main_banner_b:hover {
+    opacity: 0.9;
+  }
+  footer {
+    background-color: #654131;
+    margin-top: 115px;
+    overflow: hidden;
+  }
+  #footerInner {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+  }
+  #footerleft {
+    width: 550px;
+    height: 200px;
+    position: relative;
+    padding-top: 45px;
+  }
+  #footerRight {
+    display: flex;
+    color: #f9e4d5;
+    justify-content: space-around;
+    padding-top: 45px;
+    width: 450px;
+  }
+  #footerRight a {
+    color: #f9e4d5;
+  }
+  #footer_logo {
+    width: 368px;
+    margin-right: 5px;
+  }
+  #footer_SNS {
+    width: 60px;
+  }
+  #footer_SNS:hover {
+    opacity: 0.9;
+  }
+  #footer_c {
+    color: #f9e4d5;
+    padding-top: 10px;
+  }
+  #footerleft2 {
+    display: flex;
+  }
+  #statute_footer li:nth-child(2) {
+    margin-top: 10px;
+  }
+  #statute_footer li:nth-child(3) {
+    margin-top: 10px;
+  }
+  #statute_footer li:nth-child(4) {
+    margin-top: 10px;
+  }
+  #menu_footer {
+    font-family: 'Petit Formal Script', cursive;
+  }
+  #menu_footer li:nth-child(2) {
+    margin-top: 10px;
+  }
+  #menu_footer li:nth-child(3) {
+    margin-top: 10px;
+  }
+  #menu_footer li:nth-child(4) {
+    margin-top: 10px;
+  }
+  .hide_down {
+    transition: 1s;
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  .show {
+    opacity: 1 !important;
+    transform: translate(0px, 0px) !important;
+  }
+.hover-parent{
+	position: relative;
+}
+.BonBonChocolat_pc figure figcaption{
+	transition: all .2s;
+	opacity: 0;
+	background: rgba(101,65,49,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	color:#f3e9d8;
+	line-height:300px;
+	font-size: 30px;
+	    font-family: 'Petit Formal Script', cursive;
+}
+.BonBonChocolat_pc figure:hover figcaption{
+	opacity: 1;
+}
+.BonBonChocolat_pc figure figcaption p{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	width: 90%;
+}
+
+.Raspberries_pc figure figcaption{
+	transition: all .2s;
+	opacity: 0;
+	background: rgba(101,65,49,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	color:#f3e9d8;
+	line-height:300px;
+	font-size: 30px;
+	    font-family: 'Petit Formal Script', cursive;
+}
+.Raspberries_pc figure:hover figcaption{
+	opacity: 1;
+}
+.Raspberries_pc figure figcaption p{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	width: 90%;
+}
+	.Truffle_pc figure figcaption{
+	transition: all .2s;
+	opacity: 0;
+	background: rgba(101,65,49,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	color:#f3e9d8;
+	line-height:300px;
+	font-size: 30px;
+	    font-family: 'Petit Formal Script', cursive;
+}
+.Truffle_pc figure:hover figcaption{
+	opacity: 1;
+}
+.Truffle_pc figure figcaption p{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	width: 90%;
+	
+}	
+.Tablet_pc figure figcaption{
+	transition: all .2s;
+	opacity: 0;
+	background: rgba(101,65,49,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	color:#f3e9d8;
+	line-height:300px;
+	font-size: 30px;
+	    font-family: 'Petit Formal Script', cursive;
+}
+.Tablet_pc figure:hover figcaption{
+	opacity: 1;
+}
+.Tablet_pc figure figcaption p{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	width: 90%;
+	
+}	
+	.Giftbox_pc figure figcaption{
+	transition: all .2s;
+	opacity: 0;
+	background: rgba(101,65,49,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	color:#f3e9d8;
+	line-height:300px;
+	font-size: 30px;
+	    font-family: 'Petit Formal Script', cursive;
+}
+.Giftbox_pc figure:hover figcaption{
+	opacity: 1;
+}
+.Giftbox_pc figure figcaption p{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	width: 90%;
+	
+}	.Seasonal_pc figure figcaption{
+	transition: all .2s;
+	opacity: 0;
+	background: rgba(101,65,49,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	color:#f3e9d8;
+	line-height:300px;
+	font-size: 30px;
+	    font-family: 'Petit Formal Script', cursive;
+}
+.Seasonal_pc figure:hover figcaption{
+	opacity: 1;
+}
+.Seasonal_pc figure figcaption p{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	width: 90%;
+	
+}	
+}
